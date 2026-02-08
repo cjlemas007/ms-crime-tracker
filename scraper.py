@@ -7,54 +7,45 @@ from io import StringIO
 url = "https://mscrimestats.dps.ms.gov/public/View/dispview.aspx?ReportId=167&MemberSelection_[Incident%20Date].[Incident%20Date%20Hierarchy]=2025"
 
 def run_scraper():
-    print("Starting robot: Surgical Stitching...")
+    print("Starting robot: Universal Table Grabber...")
     requests.packages.urllib3.disable_warnings()
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'}
     
     try:
         response = requests.get(url, headers=headers, timeout=30, verify=False)
-        # Wrap the text in StringIO to fix that 'FutureWarning' you saw
         all_tables = pd.read_html(StringIO(response.text))
         
-        # Filter for only the substantial tables (more than 10 rows)
-        big_tables = [t for t in all_tables if len(t) > 10]
-        
-        if len(big_tables) >= 2:
-            # In Beyond 20/20: 
-            # big_tables[0] is usually the list of Names
-            # big_tables[1] is usually the grid of Numbers
-            names_df = big_tables[0]
-            values_df = big_tables[1]
-            
-            combined_data = []
-            for idx in range(len(names_df)):
-                name = str(names_df.iloc[idx, 0])
-                
-                # Clean up junk names
-                if name.lower() in ["jurisdiction", "total", "nan", "measures"]:
-                    continue
-                
-                # Create the record
-                row_data = {"Agency": name}
-                
-                # Get the numbers from the matching row in the values table
-                # We use idx-1 or idx depending on how the headers aligned
-                try:
-                    numbers = values_df.iloc[idx].tolist()
-                    row_data["Total Crimes"] = int(numbers[0]) if pd.notnull(numbers[0]) else 0
-                    row_data["Violent Crime"] = int(numbers[1]) if pd.notnull(numbers[1]) else 0
-                except:
-                    continue
-                    
-                combined_data.append(row_data)
+        # Find the single biggest table on the page
+        df = max(all_tables, key=len)
+        print(f"Found data table with {df.shape[0]} rows and {df.shape[1]} columns.")
 
-            with open('crime_stats_2025.json', 'w') as f:
-                json.dump(combined_data, f, indent=4)
+        combined_data = []
+        
+        for idx in range(len(df)):
+            # Grab the first column as the name
+            name = str(df.iloc[idx, 0])
             
-            print(f"Success! Captured {len(combined_data)} agencies.")
-        else:
-            print(f"Found {len(big_tables)} big tables, need at least 2.")
+            # Skip noise
+            if name.lower() in ["jurisdiction", "total", "nan", "measures", "none", "0"]:
+                continue
+            
+            # Build the record using column positions (0, 1, 2) rather than names
+            row_data = {
+                "Agency": name,
+                "Stat_A": str(df.iloc[idx, 1]) if df.shape[1] > 1 else "0",
+                "Stat_B": str(df.iloc[idx, 2]) if df.shape[1] > 2 else "0",
+                "Stat_C": str(df.iloc[idx, 3]) if df.shape[1] > 3 else "0"
+            }
+            combined_data.append(row_data)
+
+        if not combined_data:
+            print("Captured 0 rows. Table structure might be empty.")
             sys.exit(1)
+
+        with open('crime_stats_2025.json', 'w') as f:
+            json.dump(combined_data, f, indent=4)
+        
+        print(f"Success! Saved {len(combined_data)} agencies to JSON.")
 
     except Exception as e:
         print(f"Robot failed: {e}")
