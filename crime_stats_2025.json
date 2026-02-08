@@ -1,1202 +1,2002 @@
 [
     {
-        "Agency": "5545",
-        "Stat_A": "164.0",
-        "Stat_B": "3883.0",
-        "Stat_C": "506.0"
-    },
-    {
-        "Agency": "58",
-        "Stat_A": "1.0",
-        "Stat_B": "49.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "58",
-        "Stat_A": "1.0",
-        "Stat_B": "49.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "44",
-        "Stat_A": "1.0",
-        "Stat_B": "32.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "30",
-        "Stat_A": "1.0",
-        "Stat_B": "21.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "16",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "9",
-        "Stat_A": "nan",
-        "Stat_B": "6.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "7",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "43",
-        "Stat_A": "1.0",
-        "Stat_B": "33.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "1.0",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "nan",
-        "Stat_B": "23.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "18",
-        "Stat_A": "2.0",
-        "Stat_B": "10.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "6",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "10",
-        "Stat_A": "2.0",
-        "Stat_B": "7.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "nan",
-        "Stat_B": "6.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "nan",
-        "Stat_B": "6.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "39",
-        "Stat_A": "2.0",
-        "Stat_B": "34.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "30",
-        "Stat_A": "nan",
-        "Stat_B": "27.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "9",
-        "Stat_A": "2.0",
-        "Stat_B": "7.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "45",
-        "Stat_A": "1.0",
-        "Stat_B": "33.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "1.0",
-        "Stat_B": "7.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "37",
-        "Stat_A": "nan",
-        "Stat_B": "26.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "125",
-        "Stat_A": "5.0",
-        "Stat_B": "111.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "117",
-        "Stat_A": "5.0",
-        "Stat_B": "103.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "119",
-        "Stat_A": "1.0",
-        "Stat_B": "112.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "117",
-        "Stat_A": "1.0",
-        "Stat_B": "111.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "9",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "9",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "353",
-        "Stat_A": "8.0",
-        "Stat_B": "237.0",
-        "Stat_C": "39.0"
-    },
-    {
-        "Agency": "56",
-        "Stat_A": "nan",
-        "Stat_B": "32.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "21",
-        "Stat_A": "1.0",
-        "Stat_B": "14.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "26",
-        "Stat_A": "3.0",
-        "Stat_B": "15.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "85",
-        "Stat_A": "2.0",
-        "Stat_B": "57.0",
-        "Stat_C": "9.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "164",
-        "Stat_A": "2.0",
-        "Stat_B": "118.0",
-        "Stat_C": "24.0"
-    },
-    {
-        "Agency": "148",
-        "Stat_A": "3.0",
-        "Stat_B": "85.0",
-        "Stat_C": "22.0"
-    },
-    {
-        "Agency": "27",
-        "Stat_A": "2.0",
-        "Stat_B": "7.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "112",
-        "Stat_A": "nan",
-        "Stat_B": "71.0",
-        "Stat_C": "21.0"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "1.0",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "100",
-        "Stat_A": "nan",
-        "Stat_B": "66.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "86",
-        "Stat_A": "nan",
-        "Stat_B": "55.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "43",
-        "Stat_A": "nan",
-        "Stat_B": "38.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "26",
-        "Stat_A": "nan",
-        "Stat_B": "24.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "17",
-        "Stat_A": "nan",
-        "Stat_B": "14.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "44",
-        "Stat_A": "1.0",
-        "Stat_B": "21.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "19",
-        "Stat_A": "1.0",
-        "Stat_B": "7.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "22",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "860",
-        "Stat_A": "13.0",
-        "Stat_B": "665.0",
-        "Stat_C": "72.0"
-    },
-    {
-        "Agency": "172",
-        "Stat_A": "4.0",
-        "Stat_B": "101.0",
-        "Stat_C": "26.0"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "1.0",
-        "Stat_B": "6.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "601",
-        "Stat_A": "6.0",
-        "Stat_B": "522.0",
-        "Stat_C": "38.0"
-    },
-    {
-        "Agency": "61",
-        "Stat_A": "1.0",
-        "Stat_B": "30.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "11",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "1.0",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "883",
-        "Stat_A": "42.0",
-        "Stat_B": "608.0",
-        "Stat_C": "146.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "10",
-        "Stat_A": "1.0",
-        "Stat_B": "4.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "3.0",
-        "Stat_B": "8.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "39",
-        "Stat_A": "2.0",
-        "Stat_B": "32.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "562",
-        "Stat_A": "26.0",
-        "Stat_B": "391.0",
-        "Stat_C": "104.0"
-    },
-    {
-        "Agency": "237",
-        "Stat_A": "10.0",
-        "Stat_B": "169.0",
-        "Stat_C": "33.0"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "12",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "12",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "151",
-        "Stat_A": "7.0",
-        "Stat_B": "87.0",
-        "Stat_C": "20.0"
-    },
-    {
-        "Agency": "45",
-        "Stat_A": "2.0",
-        "Stat_B": "31.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "7",
-        "Stat_A": "2.0",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "99",
-        "Stat_A": "3.0",
-        "Stat_B": "52.0",
-        "Stat_C": "19.0"
-    },
-    {
-        "Agency": "26",
-        "Stat_A": "2.0",
-        "Stat_B": "15.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "2.0",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "20",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "6",
-        "Stat_A": "nan",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "6",
-        "Stat_A": "nan",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "219",
-        "Stat_A": "6.0",
-        "Stat_B": "142.0",
-        "Stat_C": "20.0"
-    },
-    {
-        "Agency": "16",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "63",
-        "Stat_A": "3.0",
-        "Stat_B": "20.0",
-        "Stat_C": "10.0"
-    },
-    {
-        "Agency": "140",
-        "Stat_A": "3.0",
-        "Stat_B": "111.0",
-        "Stat_C": "10.0"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "52",
-        "Stat_A": "1.0",
-        "Stat_B": "20.0",
-        "Stat_C": "6.0"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "39",
-        "Stat_A": "nan",
-        "Stat_B": "19.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "1.0",
-        "Stat_B": "1.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "44",
-        "Stat_A": "1.0",
-        "Stat_B": "29.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "32",
-        "Stat_A": "1.0",
-        "Stat_B": "19.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "3.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "197",
-        "Stat_A": "13.0",
-        "Stat_B": "133.0",
-        "Stat_C": "19.0"
-    },
-    {
-        "Agency": "8",
-        "Stat_A": "nan",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "6",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "183",
-        "Stat_A": "13.0",
-        "Stat_B": "124.0",
-        "Stat_C": "19.0"
-    },
-    {
-        "Agency": "62",
-        "Stat_A": "2.0",
-        "Stat_B": "48.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "62",
-        "Stat_A": "2.0",
-        "Stat_B": "48.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "172",
-        "Stat_A": "3.0",
-        "Stat_B": "98.0",
-        "Stat_C": "22.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "47",
-        "Stat_A": "1.0",
-        "Stat_B": "25.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "124",
-        "Stat_A": "2.0",
-        "Stat_B": "73.0",
-        "Stat_C": "20.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "38",
-        "Stat_A": "2.0",
-        "Stat_B": "26.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "34",
-        "Stat_A": "1.0",
-        "Stat_B": "25.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "1.0",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "105",
-        "Stat_A": "nan",
-        "Stat_B": "73.0",
-        "Stat_C": "11.0"
-    },
-    {
-        "Agency": "48",
-        "Stat_A": "nan",
-        "Stat_B": "38.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "55",
-        "Stat_A": "nan",
-        "Stat_B": "35.0",
-        "Stat_C": "6.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "99",
-        "Stat_A": "1.0",
-        "Stat_B": "84.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "89",
-        "Stat_A": "1.0",
-        "Stat_B": "78.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "6",
-        "Stat_A": "nan",
-        "Stat_B": "4.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "2.0",
-        "Stat_B": "20.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "25",
-        "Stat_A": "2.0",
-        "Stat_B": "18.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "1.0",
-        "Stat_B": "12.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "1.0",
-        "Stat_B": "11.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "70",
-        "Stat_A": "3.0",
-        "Stat_B": "43.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "39",
-        "Stat_A": "2.0",
-        "Stat_B": "27.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "31",
-        "Stat_A": "1.0",
-        "Stat_B": "16.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "10",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "10",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "92",
-        "Stat_A": "nan",
-        "Stat_B": "64.0",
-        "Stat_C": "6.0"
-    },
-    {
-        "Agency": "40",
-        "Stat_A": "nan",
-        "Stat_B": "30.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "20",
-        "Stat_A": "nan",
-        "Stat_B": "7.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "32",
-        "Stat_A": "nan",
-        "Stat_B": "27.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "17",
-        "Stat_A": "nan",
-        "Stat_B": "13.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "4",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "1.0",
-        "Stat_B": "23.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "1.0",
-        "Stat_B": "23.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "49",
-        "Stat_A": "4.0",
-        "Stat_B": "22.0",
-        "Stat_C": "6.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "26",
-        "Stat_A": "2.0",
-        "Stat_B": "11.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "17",
-        "Stat_A": "2.0",
-        "Stat_B": "9.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "74",
-        "Stat_A": "4.0",
-        "Stat_B": "52.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "25",
-        "Stat_A": "2.0",
-        "Stat_B": "17.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "1.0",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "48",
-        "Stat_A": "1.0",
-        "Stat_B": "35.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "78",
-        "Stat_A": "3.0",
-        "Stat_B": "55.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "3",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "34",
-        "Stat_A": "nan",
-        "Stat_B": "29.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "39",
-        "Stat_A": "2.0",
-        "Stat_B": "25.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "1.0",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "55",
-        "Stat_A": "2.0",
-        "Stat_B": "37.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "55",
-        "Stat_A": "2.0",
-        "Stat_B": "37.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "60",
-        "Stat_A": "1.0",
-        "Stat_B": "31.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "46",
-        "Stat_A": "1.0",
-        "Stat_B": "18.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "14",
-        "Stat_A": "nan",
-        "Stat_B": "13.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "52",
-        "Stat_A": "nan",
-        "Stat_B": "28.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "35",
-        "Stat_A": "nan",
-        "Stat_B": "23.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "17",
-        "Stat_A": "nan",
-        "Stat_B": "5.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "121",
-        "Stat_A": "8.0",
-        "Stat_B": "79.0",
-        "Stat_C": "7.0"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "3.0",
-        "Stat_B": "9.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "nan",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "18",
-        "Stat_A": "nan",
-        "Stat_B": "16.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "5",
-        "Stat_A": "3.0",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "1",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "26",
-        "Stat_A": "nan",
-        "Stat_B": "14.0",
-        "Stat_C": "2.0"
-    },
-    {
-        "Agency": "40",
-        "Stat_A": "2.0",
-        "Stat_B": "25.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "15",
-        "Stat_A": "nan",
-        "Stat_B": "11.0",
-        "Stat_C": "3.0"
-    },
-    {
-        "Agency": "20",
-        "Stat_A": "nan",
-        "Stat_B": "14.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "20",
-        "Stat_A": "nan",
-        "Stat_B": "14.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "1.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "54",
-        "Stat_A": "1.0",
-        "Stat_B": "38.0",
-        "Stat_C": "5.0"
-    },
-    {
-        "Agency": "24",
-        "Stat_A": "1.0",
-        "Stat_B": "15.0",
-        "Stat_C": "4.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "28",
-        "Stat_A": "nan",
-        "Stat_B": "21.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "2",
-        "Stat_A": "nan",
-        "Stat_B": "2.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "49",
-        "Stat_A": "1.0",
-        "Stat_B": "23.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "37",
-        "Stat_A": "1.0",
-        "Stat_B": "15.0",
-        "Stat_C": "nan"
-    },
-    {
-        "Agency": "12",
-        "Stat_A": "nan",
-        "Stat_B": "8.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "1.0"
-    },
-    {
-        "Agency": "13",
-        "Stat_A": "nan",
-        "Stat_B": "10.0",
-        "Stat_C": "1.0"
+        "Agency": "5545.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "164.0",
+            "3883.0",
+            "506.0",
+            "992.0"
+        ]
+    },
+    {
+        "Agency": "58.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "49.0",
+            "1.0",
+            "7.0"
+        ]
+    },
+    {
+        "Agency": "58.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "49.0",
+            "1.0",
+            "7.0"
+        ]
+    },
+    {
+        "Agency": "44.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "32.0",
+            "3.0",
+            "8.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "nan",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "30.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "21.0",
+            "3.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "16.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "1.0",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "9.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "6.0",
+            "nan",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "7.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "43.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "33.0",
+            "4.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "nan",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "23.0",
+            "2.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "2.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "18.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "10.0",
+            "nan",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "6.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "10.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "7.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "6.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "6.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "39.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "34.0",
+            "nan",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "30.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "27.0",
+            "nan",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "9.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "7.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "45.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "33.0",
+            "5.0",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "7.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "37.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "26.0",
+            "5.0",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "125.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "5.0",
+            "111.0",
+            "4.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "117.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "5.0",
+            "103.0",
+            "4.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "119.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "112.0",
+            "3.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "117.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "111.0",
+            "3.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "9.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "9.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "353.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "8.0",
+            "237.0",
+            "39.0",
+            "69.0"
+        ]
+    },
+    {
+        "Agency": "56.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "32.0",
+            "2.0",
+            "22.0"
+        ]
+    },
+    {
+        "Agency": "21.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "14.0",
+            "1.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "26.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "15.0",
+            "3.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "85.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "57.0",
+            "9.0",
+            "17.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "164.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "118.0",
+            "24.0",
+            "20.0"
+        ]
+    },
+    {
+        "Agency": "148.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "85.0",
+            "22.0",
+            "38.0"
+        ]
+    },
+    {
+        "Agency": "27.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "7.0",
+            "1.0",
+            "17.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "112.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "71.0",
+            "21.0",
+            "20.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "2.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "100.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "66.0",
+            "4.0",
+            "30.0"
+        ]
+    },
+    {
+        "Agency": "86.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "55.0",
+            "3.0",
+            "28.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "1.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "43.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "38.0",
+            "2.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "26.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "24.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "17.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "14.0",
+            "2.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "44.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "21.0",
+            "1.0",
+            "21.0"
+        ]
+    },
+    {
+        "Agency": "19.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "7.0",
+            "1.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "22.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "nan",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "860.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "13.0",
+            "665.0",
+            "72.0",
+            "110.0"
+        ]
+    },
+    {
+        "Agency": "172.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "4.0",
+            "101.0",
+            "26.0",
+            "41.0"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "6.0",
+            "3.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "601.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "6.0",
+            "522.0",
+            "38.0",
+            "35.0"
+        ]
+    },
+    {
+        "Agency": "61.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "30.0",
+            "5.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "11.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "nan",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "nan",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "883.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "42.0",
+            "608.0",
+            "146.0",
+            "87.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "10.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "4.0",
+            "2.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "8.0",
+            "4.0",
+            "13.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "39.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "32.0",
+            "1.0",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "562.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "26.0",
+            "391.0",
+            "104.0",
+            "41.0"
+        ]
+    },
+    {
+        "Agency": "237.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "10.0",
+            "169.0",
+            "33.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "12.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "2.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "12.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "2.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "151.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "7.0",
+            "87.0",
+            "20.0",
+            "37.0"
+        ]
+    },
+    {
+        "Agency": "45.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "31.0",
+            "1.0",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "7.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "4.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "99.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "52.0",
+            "19.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "26.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "15.0",
+            "2.0",
+            "7.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "20.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "2.0",
+            "7.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "6.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "4.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "6.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "4.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "219.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "6.0",
+            "142.0",
+            "20.0",
+            "51.0"
+        ]
+    },
+    {
+        "Agency": "16.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "nan",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "63.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "20.0",
+            "10.0",
+            "30.0"
+        ]
+    },
+    {
+        "Agency": "140.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "111.0",
+            "10.0",
+            "16.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "52.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "20.0",
+            "6.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "2.0",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "39.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "19.0",
+            "3.0",
+            "17.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "44.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "29.0",
+            "1.0",
+            "13.0"
+        ]
+    },
+    {
+        "Agency": "32.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "19.0",
+            "nan",
+            "12.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "4.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "3.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "197.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "13.0",
+            "133.0",
+            "19.0",
+            "32.0"
+        ]
+    },
+    {
+        "Agency": "8.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "4.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "6.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "183.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "13.0",
+            "124.0",
+            "19.0",
+            "27.0"
+        ]
+    },
+    {
+        "Agency": "62.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "48.0",
+            "2.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "62.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "48.0",
+            "2.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "172.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "98.0",
+            "22.0",
+            "49.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "47.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "25.0",
+            "2.0",
+            "19.0"
+        ]
+    },
+    {
+        "Agency": "124.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "73.0",
+            "20.0",
+            "29.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "38.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "26.0",
+            "nan",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "34.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "25.0",
+            "nan",
+            "8.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "1.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "105.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "73.0",
+            "11.0",
+            "21.0"
+        ]
+    },
+    {
+        "Agency": "48.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "38.0",
+            "3.0",
+            "7.0"
+        ]
+    },
+    {
+        "Agency": "55.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "35.0",
+            "6.0",
+            "14.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "2.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "99.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "84.0",
+            "3.0",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "89.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "78.0",
+            "2.0",
+            "8.0"
+        ]
+    },
+    {
+        "Agency": "6.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "4.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "20.0",
+            "nan",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "25.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "18.0",
+            "nan",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "12.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "11.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "70.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "43.0",
+            "nan",
+            "24.0"
+        ]
+    },
+    {
+        "Agency": "39.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "27.0",
+            "nan",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "31.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "16.0",
+            "nan",
+            "14.0"
+        ]
+    },
+    {
+        "Agency": "10.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "10.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "1.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "92.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "64.0",
+            "6.0",
+            "22.0"
+        ]
+    },
+    {
+        "Agency": "40.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "30.0",
+            "nan",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "20.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "7.0",
+            "4.0",
+            "9.0"
+        ]
+    },
+    {
+        "Agency": "32.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "27.0",
+            "2.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "17.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "13.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "4.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "23.0",
+            "3.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "23.0",
+            "3.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "49.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "4.0",
+            "22.0",
+            "6.0",
+            "17.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "26.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "11.0",
+            "3.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "17.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "9.0",
+            "3.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "74.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "4.0",
+            "52.0",
+            "2.0",
+            "16.0"
+        ]
+    },
+    {
+        "Agency": "25.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "17.0",
+            "1.0",
+            "5.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "nan",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "48.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "35.0",
+            "1.0",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "78.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "55.0",
+            "4.0",
+            "16.0"
+        ]
+    },
+    {
+        "Agency": "3.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "nan",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "34.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "29.0",
+            "1.0",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "39.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "25.0",
+            "3.0",
+            "9.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "55.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "37.0",
+            "5.0",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "55.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "37.0",
+            "5.0",
+            "11.0"
+        ]
+    },
+    {
+        "Agency": "60.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "31.0",
+            "3.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "46.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "18.0",
+            "2.0",
+            "25.0"
+        ]
+    },
+    {
+        "Agency": "14.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "13.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "52.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "28.0",
+            "2.0",
+            "22.0"
+        ]
+    },
+    {
+        "Agency": "35.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "23.0",
+            "2.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "17.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "5.0",
+            "nan",
+            "12.0"
+        ]
+    },
+    {
+        "Agency": "121.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "8.0",
+            "79.0",
+            "7.0",
+            "27.0"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "9.0",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "nan",
+            "nan",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "18.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "16.0",
+            "nan",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "5.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "3.0",
+            "2.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "1.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "26.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "14.0",
+            "2.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "40.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "2.0",
+            "25.0",
+            "1.0",
+            "12.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "15.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "11.0",
+            "3.0",
+            "1.0"
+        ]
+    },
+    {
+        "Agency": "20.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "14.0",
+            "4.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "20.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "14.0",
+            "4.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "1.0",
+            "1.0",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "54.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "38.0",
+            "5.0",
+            "10.0"
+        ]
+    },
+    {
+        "Agency": "24.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "15.0",
+            "4.0",
+            "4.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "28.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "21.0",
+            "1.0",
+            "6.0"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "2.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "2.0",
+            "nan",
+            "nan"
+        ]
+    },
+    {
+        "Agency": "49.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "23.0",
+            "1.0",
+            "24.0"
+        ]
+    },
+    {
+        "Agency": "37.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "1.0",
+            "15.0",
+            "nan",
+            "21.0"
+        ]
+    },
+    {
+        "Agency": "12.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "8.0",
+            "1.0",
+            "3.0"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "1.0",
+            "2.0"
+        ]
+    },
+    {
+        "Agency": "13.0",
+        "Status": "Reporting",
+        "Raw_Data": [
+            "nan",
+            "10.0",
+            "1.0",
+            "2.0"
+        ]
     }
 ]
