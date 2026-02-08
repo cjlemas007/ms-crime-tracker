@@ -1,24 +1,29 @@
 name: Daily Crime Update
 on:
   schedule:
-    - cron: '0 13 * * *' # Runs every day at 8am Central Time
-  workflow_dispatch: # Allows you to run it manually whenever you want
+    - cron: '0 13 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # This gives the robot permission to save files
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
       - name: Install tools
-        run: pip install pandas requests lxml
+        run: pip install pandas requests lxml html5lib
       - name: Run the robot
         run: python scraper.py
       - name: Save the data back to GitHub
         run: |
           git config --global user.name 'Crime-Robot'
+          git config --global user.email 'robot@github.com'
           git add .
           git commit -m "Auto-update crime data" || exit 0
           git push
