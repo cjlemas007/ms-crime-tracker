@@ -4,77 +4,58 @@ import json
 import sys
 from io import StringIO
 
-# 1. The main "Lobby" URL to get a cookie
 base_url = "https://mscrimestats.dps.ms.gov/tops/"
-# 2. The specific "Room" URL (The Report)
 report_url = "https://mscrimestats.dps.ms.gov/public/View/dispview.aspx?ReportId=167&MemberSelection_[Incident%20Date].[Incident%20Date%20Hierarchy]=2025"
 
 def run_scraper():
-    print("Starting robot with Session Cookies...")
+    print("Starting robot: Index-Aware Search...")
     requests.packages.urllib3.disable_warnings()
     
-    # Create a session (this saves cookies automatically)
     session = requests.Session()
-    session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'
-    })
+    session.headers.update({'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'})
     
     try:
-        # Step 1: Visit the homepage to initialize the session
-        print("Visiting homepage to get session ID...")
         session.get(base_url, verify=False, timeout=30)
-        
-        # Step 2: Now visit the report
-        print("Requesting report data...")
         response = session.get(report_url, verify=False, timeout=30)
         
-        # Security Check: Did we actually get the report?
-        if "Jurisdiction by Geography" not in response.text:
-            print("Failed: The robot is stuck on the login or loading page.")
-            # Print a small snippet to see what page we actually got
-            print(f"Page Title: {response.text[:200]}")
-            sys.exit(1)
-
-        # Step 3: Parse the tables
-        all_tables = pd.read_html(StringIO(response.text))
+        # Read HTML but keep the header structure loose
+        all_tables = pd.read_html(StringIO(response.text), header=None)
         
-        # Find the table with the most columns (the data table)
-        # The screenshot shows at least 6 columns (Agency + 5 stats)
         data_table = None
         for t in all_tables:
-            if t.shape[1] >= 5 and len(t) > 20:
+            # We look for a table that contains actual text names like "Police" or "Sheriff"
+            # AND has multiple columns of numbers
+            if t.shape[1] > 3 and t.iloc[:, 0].astype(str).str.contains('Police|Sheriff|County', case=False, na=False).any():
                 data_table = t
                 break
-                
+        
         if data_table is not None:
-            # Clean up the data
-            # The screenshot shows the agency name is likely in Column 0
             cleaned_data = []
             for idx, row in data_table.iterrows():
-                row_list = row.astype(str).tolist()
-                agency_name = row_list[0]
+                # Force the first column to be treated as text
+                agency_name = str(row[0])
                 
-                # Filter out junk rows
-                if agency_name.lower() in ["jurisdiction", "total", "nan"]:
-                    continue
-                
-                # Identify "Non-Reporting" agencies based on the screenshot text
-                status = "Reporting"
-                if "Not Reporting" in agency_name:
-                    status = "Not Reporting"
-                
-                cleaned_data.append({
-                    "Agency": agency_name,
-                    "Status": status,
-                    "Raw_Data": row_list[1:] # Grab the stats
-                })
+                # Check if this row actually looks like an agency name
+                # (It shouldn't be a number like '5545' or 'nan')
+                if not agency_name.replace('.', '', 1).isdigit() and "nan" not in agency_name.lower():
+                    
+                    status = "Reporting"
+                    if "Not Reporting" in agency_name:
+                        status = "Not Reporting"
+                        
+                    cleaned_data.append({
+                        "Agency": agency_name,
+                        "Status": status,
+                        # Grab the rest of the columns as the numbers
+                        "Stats": row[1:].fillna(0).astype(str).tolist()
+                    })
 
             with open('crime_stats_2025.json', 'w') as f:
                 json.dump(cleaned_data, f, indent=4)
             
-            print(f"Success! Captured {len(cleaned_data)} agencies.")
+            print(f"Success! Captured {len(cleaned_data)} agencies with correct names.")
         else:
-            print("Could not find the data table in the HTML.")
+            print("Could not find a table with Agency Names in the first column.")
             sys.exit(1)
 
     except Exception as e:
