@@ -2,57 +2,58 @@ import pandas as pd
 import requests
 import json
 import sys
+from io import StringIO
 
 url = "https://mscrimestats.dps.ms.gov/public/View/dispview.aspx?ReportId=167&MemberSelection_[Incident%20Date].[Incident%20Date%20Hierarchy]=2025"
 
 def run_scraper():
-    print("Starting robot: Stitching Names and Numbers...")
+    print("Starting robot: Surgical Stitching...")
     requests.packages.urllib3.disable_warnings()
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36'}
     
     try:
         response = requests.get(url, headers=headers, timeout=30, verify=False)
-        all_tables = pd.read_html(response.text)
-
-        # Beyond 20/20 puts Names in one table and Numbers in the next
-        # We need to find the specific pair that matches
-        names_table = None
-        values_table = None
-
-        for i in range(len(all_tables)):
-            # The Names table usually has 'Jurisdiction' in the first row
-            if "Jurisdiction" in str(all_tables[i]):
-                names_table = all_tables[i]
-                # The Values table is almost always the very next one
-                values_table = all_tables[i+1]
-                break
-
-        if names_table is not None and values_table is not None:
-            # Flatten the tables to simple lists
-            names = names_table.iloc[:, 0].tolist()  # Get the first column of names
+        # Wrap the text in StringIO to fix that 'FutureWarning' you saw
+        all_tables = pd.read_html(StringIO(response.text))
+        
+        # Filter for only the substantial tables (more than 10 rows)
+        big_tables = [t for t in all_tables if len(t) > 10]
+        
+        if len(big_tables) >= 2:
+            # In Beyond 20/20: 
+            # big_tables[0] is usually the list of Names
+            # big_tables[1] is usually the grid of Numbers
+            names_df = big_tables[0]
+            values_df = big_tables[1]
             
-            # Combine them into a single list of dictionaries
             combined_data = []
-            for idx, name in enumerate(names):
-                # Skip header rows like 'Jurisdiction' or 'Total'
-                if name in ["Jurisdiction", "Total", "Measures", "0"]:
+            for idx in range(len(names_df)):
+                name = str(names_df.iloc[idx, 0])
+                
+                # Clean up junk names
+                if name.lower() in ["jurisdiction", "total", "nan", "measures"]:
                     continue
                 
-                row_data = {"Agency": str(name)}
-                # Add the numbers from the values table for this row
-                numbers = values_table.iloc[idx].tolist()
-                row_data["Total Crimes"] = numbers[0]
-                row_data["Homicide"] = numbers[1]
-                row_data["Assault"] = numbers[2]
+                # Create the record
+                row_data = {"Agency": name}
                 
+                # Get the numbers from the matching row in the values table
+                # We use idx-1 or idx depending on how the headers aligned
+                try:
+                    numbers = values_df.iloc[idx].tolist()
+                    row_data["Total Crimes"] = int(numbers[0]) if pd.notnull(numbers[0]) else 0
+                    row_data["Violent Crime"] = int(numbers[1]) if pd.notnull(numbers[1]) else 0
+                except:
+                    continue
+                    
                 combined_data.append(row_data)
 
             with open('crime_stats_2025.json', 'w') as f:
                 json.dump(combined_data, f, indent=4)
             
-            print(f"Success! Combined {len(combined_data)} agencies with their stats.")
+            print(f"Success! Captured {len(combined_data)} agencies.")
         else:
-            print("Could not find the matching Name/Value tables.")
+            print(f"Found {len(big_tables)} big tables, need at least 2.")
             sys.exit(1)
 
     except Exception as e:
